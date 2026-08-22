@@ -1,0 +1,64 @@
+{
+  "name": "Resume Portal Pro",
+  "short_name": "Resume Pro",
+  "description": "Multi-Niche Resume & Professional Portfolio Builder",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-1.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "View Resume",
+      "short_name": "Resume",
+      "description": "Quick access to your professional resume",
+      "url": "/?tab=resume",
+      "icons": [{
+        "src": "/icon-96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      }]
+    },
+    {
+      "name": "Switch Niche",
+      "short_name": "Niche",
+      "description": "Switch to different professional niches",
+      "url": "/?tab=niche",
+      "icons": [{
+        "src": "/icon-96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      }]
+    }
+  ],
+  "categories": ["productivity", "business"]
+}
